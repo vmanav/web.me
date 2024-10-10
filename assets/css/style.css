@@ -129,6 +129,17 @@ a { text-decoration: none; }
 
 li { list-style: none; }
 
+.skill-list {
+  li {
+   padding-left: 20px;
+  }
+
+  li:before {
+    content: "-";
+    margin-left: -20px;    /* text-indent: 20px; */
+  }
+}
+
 img, ion-icon, a, button, time, span { display: block; }
 
 button {
