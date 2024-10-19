@@ -140,6 +140,12 @@ li { list-style: none; }
   }
 }
 
+.dashed-list {
+  li {
+    list-style-type: square;
+  }
+}
+
 img, ion-icon, a, button, time, span { display: block; }
 
 button {
@@ -838,6 +844,10 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+
+  li {
+    color: var(--light-gray);
+  }
 }
 
 
@@ -1881,8 +1891,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .social-list { justify-content: center; }
-
-
 
   /**
 	 * RESUME
