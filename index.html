@@ -20,26 +20,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
 </head>
 
 <body>
-
-  <!--
-    - #MAIN
-  -->
 
   <main>
 
     <!--
       - #SIDEBAR
     -->
-
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img class="avatar-box" src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
         </figure>
 
         <div class="info-content">
@@ -106,15 +102,9 @@
       </div>
 
     </aside>
-
-
-
-
-
     <!--
       - #main-content
     -->
-
     <div class="main-content">
 
       <!--
@@ -137,9 +127,9 @@
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
-          <li class="navbar-item">
+          <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
+          </li> -->
           <!-- 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -380,37 +370,108 @@
 
 
       <article class="Resume" data-page="resume">
-
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
-
+        <!-- Skills Section -->
         <section class="timeline">
+          <section class="skillset">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="hammer-outline"></ion-icon>
+              </div>
+              <h3 class="h3">My Skills</h3>
+            </div>
 
+            <!-- Skills Periodic Table -->
+            <div class="skills">
+              <div class="periodic-table">
+                <div class="empty-spacer-1"></div>
+                <div class="empty-spacer-3"></div>
+                <div class="periodic-element social-media">
+                  <div class="periodic-element-inner">
+                    <div class="title">R</div>
+                    <div class="description">React</div>
+                  </div>
+                </div>
+                <div class="periodic-element social-media">
+                  <div class="periodic-element-inner">
+                    <div class="title">RoR</div>
+                    <div class="description">Ruby on Rails</div>
+                  </div>
+                </div>
+                <div class="periodic-element just-trying">
+                  <div class="periodic-element-inner">
+                    <div class="title">Js</div>
+                    <div class="description">Javascript</div>
+                  </div>
+                </div>
+                <div class="periodic-element intense-work">
+                  <div class="periodic-element-inner">
+                    <div class="title">A</div>
+                    <div class="description">Angular</div>
+                  </div>
+                </div>
+                <div class="periodic-element fun-stuff">
+                  <div class="periodic-element-inner">
+                    <div class="title">C++</div>
+                    <div class="description">C++</div>
+                  </div>
+                </div>
+                <div class="periodic-element intense-work">
+                  <div class="periodic-element-inner">
+                    <div class="title">SQL</div>
+                    <div class="description">SQL Databases</div>
+                  </div>
+                </div>
+                <div class="periodic-element just-trying">
+                  <div class="periodic-element-inner">
+                    <div class="title">Node</div>
+                    <div class="description">Node.Js</div>
+                  </div>
+                </div>
+
+                <div class="periodic-element social-media">
+                  <div class="periodic-element-inner">
+                    <div class="title">Git</div>
+                    <div class="description">Git</div>
+                  </div>
+                </div>
+                <div class="periodic-element social-media">
+                  <div class="periodic-element-inner">
+                    <div class="title">HTML</div>
+                    <div class="description">HTML</div>
+                  </div>
+                </div>
+                <div class="periodic-element social-media">
+                  <div class="periodic-element-inner">
+                    <div class="title">CSS</div>
+                    <div class="description">CSS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- Education Section -->
+        <section class="timeline">
           <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
             <h3 class="h3">Education</h3>
           </div>
-
           <ol class="timeline-list">
-
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">University College Cork</h4>
-
               <span>Sep 2024 — 2025</span>
-
               <p class="timeline-text">
                 Ms - Computing Science
               </p>
-
             </li>
-
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">
                 Jaypee Institute of Information Technology
               </h4>
@@ -424,40 +485,17 @@
                 Systems and Web, Computer Networks
               </p>
               </p>
-
             </li>
-
             <li class="timeline-item">
-
               <h4 class="h4 timeline-item-title">
                 Bal Bharati Public School
               </h4>
               <span>2017</span>
-
               <p class="timeline-text">
                 PERCENTAGE: 94.8%
               </p>
-
             </li>
-
           </ol>
-
-        </section>
-
-
-        <section class="timeline">
-          <section class="skillset">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="hammer-outline"></ion-icon>
-              </div>
-              <h3 class="h3">My Skills</h3>
-            </div>
-
-
-
-            asdasd
-          </section>
         </section>
 
 
@@ -744,15 +782,7 @@
 
   </main>
 
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
