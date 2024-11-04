@@ -15,6 +15,12 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 :root {
 
   /**
@@ -177,9 +183,11 @@ textarea {
 
 html {
   font-family: var(--ff-poppins);
+  height: 100%;
 }
 
 body {
+  height: 100%;
   background: var(--smoky-black);
   background-size: 50px 50px;
   background-position: 28px 20px;
@@ -348,8 +356,8 @@ article.active {
 \*-----------------------------------*/
 
 main {
-  margin: 15px 12px;
-  margin-bottom: 75px;
+  /* margin: 15px 12px; */
+  /* margin-bottom: 75px; */
   min-width: 259px;
 }
 
@@ -1498,10 +1506,10 @@ textarea.form-input::-webkit-resizer {
    * #MAIN
    */
 
-  main {
+  /* main {
     margin-top: 60px;
     margin-bottom: 100px;
-  }
+  } */
 
 
 
@@ -1887,11 +1895,6 @@ textarea.form-input::-webkit-resizer {
   }
 
 
-
-  /**
-   * CONTACT
-   */
-
   .input-wrapper {
     grid-template-columns: 1fr 1fr;
   }
@@ -1947,9 +1950,9 @@ textarea.form-input::-webkit-resizer {
    * MAIN 
    */
 
-  main {
+  /* main {
     margin-bottom: 60px;
-  }
+  } */
 
   .main-content {
     position: relative;
@@ -2184,6 +2187,12 @@ textarea.form-input::-webkit-resizer {
 /* Skills Periodic Table */
 .skills {
   font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+}
+
+.skill-bold {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 a {
