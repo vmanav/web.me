@@ -42,9 +42,9 @@
           <h1 class="name" title="Manav Verma">Manav Verma</h1>
 
           <p class="title">Full-Stack Developer</p>
-          <a href="./assets/resume.pdf" class="download-resume-btn" download
+          <!-- <a href="./assets/resume.pdf" class="download-resume-btn" download
             style="display:block;margin-top:12px;text-align:center;padding:8px 16px;background:#007bff;color:#fff;border-radius:6px;text-decoration:none;font-weight:500;">Download
-            Resume</a>
+            Resume</a> -->
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -144,25 +144,18 @@
             <button class="navbar-link" data-nav-link>Education</button>
           </li>
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li> -->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
           <!-- 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li> -->
-
         </ul>
 
       </nav>
 
 
-
-
-
-      <!--
-        - #ABOUT
-      -->
 
       <article class="about  active" data-page="about">
 
@@ -513,32 +506,24 @@
       </article>
 
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="projects" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects">
 
           <ul class="filter-list">
-
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
-
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Academic</button>
             </li>
-
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Personal</button>
             </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
           </ul>
 
           <div class="filter-select-box">
@@ -554,66 +539,47 @@
             </button>
 
             <ul class="select-list">
-
               <li class="select-item">
                 <button data-select-item>All</button>
               </li>
-
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Academic</button>
               </li>
-
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Personal</button>
               </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
             </ul>
 
           </div>
 
           <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
+            <li class="project-item  active" data-filter-item data-category="academic">
+              <a href="https://github.com/vmanav/Rust-eze" target="=_blank">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/rust-eze.jpeg" alt="finance" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
+                <h3 class="project-title">Rust-eze</h3>
+                <p class="project-category">Rust learning platform</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
+            <li class="project-item  active" data-filter-item data-category="personal">
+              <a href="https://github.com/vmanav/draftstorm" target="=_blank">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/draftstorm.jpeg" alt="orizon" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
+                <h3 class="project-title">Draftstorm</h3>
+                <p class="project-category">Collaborative canvas</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
               <a href="#">
 
                 <figure class="project-img">
@@ -737,7 +703,7 @@
                 <p class="project-category">Web development</p>
 
               </a>
-            </li>
+            </li> -->
 
           </ul>
 
