@@ -580,7 +580,18 @@ main {
   margin-bottom: 15px;
 }
 
-
+/* Blog link styling: inline and more visible */
+.blog-link {
+  display: inline-block;
+  color: hsl(0, 0%, 7%);
+  background: var(--orange-yellow-crayola);
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-weight: var(--fw-600);
+  margin-left: 2px;
+  box-shadow: var(--shadow-1);
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
 
 /**
  * #service 
